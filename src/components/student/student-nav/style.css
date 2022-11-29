@@ -1,0 +1,36 @@
+:root {
+  --blue: #5a7cbf;
+  --beige: #d9d0a7;
+  --white: #f2e6df;
+  --red: #a63c24;
+  --pink: #f28e85;
+}
+.student-nav {
+  background-color: var(--beige);
+
+  border-bottom: 2px solid var(--white);
+ 
+}
+
+.student__search {
+  color: var(--blue);
+  font-size: 30px;
+}
+.student__notify {
+  color: var(--blue);
+  font-size: 30px;
+}
+.user-name {
+  color: var(--blue);
+  font-size: 1rem;
+}
+.user-info {
+  background-color: var(--white);
+  border-radius: 30px;
+  height: 40px;
+}
+.user-info > img {
+  height: 100%;
+  max-width: 40px;
+  max-height: 40px;
+}
